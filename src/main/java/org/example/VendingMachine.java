@@ -1,8 +1,8 @@
 package org.example;
 
+import java.util.Scanner;
+
 public interface VendingMachine {
-
-
     void addCurrency(int amount);
     int getBalance();
      Product request(int id);
